@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap'); 
+body{
+    background-image: url(img/фон.jpg);
+    font-family: 'Comfortaa', sans-serif;
+}
+.first h1{
+    margin-top: 30px;
+    color: white;
+}
+.first p{
+    margin-top: 10px;
+    color: white;
+    width: 596px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+header{
+    display: flex;
+}
+header{
+    margin-left: 500px;
+    margin-top: 30px;
+
+}
+.txt{
+    margin-top: 10px;
+    
+}
+.txt a{
+    padding: 40px;
+}
+.logo{
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: -20px;
+    left: 312px;
+}
+.first{
+    margin-top: 180px;
+}
+.img1{
+    position: absolute;
+    left: 980px;
+    top: 460px;
+}
+.img2{
+    position: absolute;
+    left: 980px;
+    top: 250px;
+    
+}
+.imag img{
+    margin-left: 12px;
+}
+.log{
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1671a7;
+    color: white;
+    font-family: 'Comfortaa';
+}
+.bronir{
+    margin-top: 170px;
+    margin-left: 167px;
+    width: 340px;
+    height: 507px;
+    border-radius: 16px;
+    padding: 32px;
+    background-color: rgba(255, 255, 255, 0.35);
+}
+.bronir2{
+    margin-top: -570px;
+    margin-left: 667px;
+    width: 340px;
+    height: 507px;
+    border-radius: 16px;
+    padding: 32px;
+    background-color: rgba(255, 255, 255, 0.35);
+}
+.container{
+    margin-left: 1160px;
+    margin-top: -510px;
+    padding: 20px;
+    display: flex;
+    width: 440px;
+    height: 168px;
+    padding: 20px, 24px, 20px, 24px;
+    border-radius: 16px;
+    gap: 28px;
+    background-color: #FFFFFF59;
+}
+.lol{
+    position: absolute;
+    top: 500px;
+    margin-left: 1160px;
+    width: 278px;
+    height: 57px;
+    background-color:#0b4586;
+    color: white;
+    border-radius: 15px;
+}
+.lol:hover{
+    background-color: #1671a7;
+}
+.bronir2 img{
+    width: 150px;
+    height: 150px;
+}
+.container h1{
+    font-size: 23px;
+}

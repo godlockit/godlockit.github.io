@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');    
+    body{
+    background-image: url(img/фон.jpg);
+    font-family: 'Comfortaa', sans-serif;
+}
+.btn{
+    margin-top: 30px;
+    margin-left: 217px;
+    width: 278px;
+    height: 57px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.btn a{
+    font-family: 'Comfortaa', sans-serif;
+    color:black
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+header{
+    display: flex;
+}
+header{
+    margin-left: 500px;
+    margin-top: 30px;
+
+}
+.txt{
+    margin-top: 10px;
+    
+}
+.txt a{
+    padding: 40px;
+}
+.logo1{
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: -20px;
+    left: 312px;
+}
+.cont-v{
+    margin-left: 50px;
+}
+.knopka{
+    position: absolute;
+    left: 1490px;
+    width: 171px;
+    height: 42px;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 8px;
+    gap: 10px;
+}
+.first{
+    margin-top: 170px;
+}
+.first h1{
+    margin-top: 10px;
+    margin-left: 212px;
+    color: white;
+}
+.first h2{
+    margin-left: 219px;
+    color: white;
+}
+.first p{
+    margin-top: 10px;
+    margin-left: 219px;
+    color: white;
+    width: 856px;
+}
+.spa{
+    position: absolute;
+    left: 1150px;
+    width: 171px;
+    height: 42px;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 8px;
+    gap: 10px;
+    top: 475px;
+}
+.main{
+    display: flex;
+}
+.three button{
+    margin-left: 30px;
+    background: #3D324F;
+    width:  140px;
+    height:  42px;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 8px;
+    gap: 10px;
+    color:white;
+    border: none;
+}
+.three button:hover{
+        background: #602db3;
+        width:  140px;
+        height:  42px;
+        padding: 12px, 20px, 12px, 20px;
+        border-radius: 8px;
+        gap: 10px;
+        color:white;
+        border: none;
+}
+.three{
+    position: absolute;
+    margin-left: 20px;
+    width: 416px;
+    height: 647px;
+    top: 209px;
+    left: 630px;
+    border-radius: 16px;
+    padding: 32px;
+    padding-top: 0px;
+    
+    background-color: rgba(255, 255, 255, 0.35);
+}
+.three input{
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+    width: 170px;
+}
+.chack{
+    height: 70px;
+    width: 200px;
+    display: flex;
+}
+.chack input{
+    margin-top: 20px;
+}
+.three p{
+    color:white;
+font-size: 15px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+}
+.three img{
+    
+    width: 100%;
+    height:40%;
+}
+.fr{
+    margin-left: 100px;   
+}
+.log{
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1671a7;
+    color: white;
+    font-family: 'Comfortaa';
+}
+.log:hover{
+    background-color:   #6f90c0;
+}
+.fr h1{
+    color: white;
+}

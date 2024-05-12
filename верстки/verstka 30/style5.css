@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap'); 
+body{
+    background-image: url(img/фон.jpg);
+    font-family: 'Comfortaa', sans-serif;
+}
+.first h1{
+    margin-top: 30px;
+    margin-left: 312px;
+    color: white;
+}
+.first p{
+    margin-top: 10px;
+    margin-left: 319px;
+    color: white;
+    width: 596px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+header{
+    display: flex;
+}
+header{
+    margin-left: 500px;
+    margin-top: 30px;
+
+}
+.txt{
+    margin-top: 10px;
+    
+}
+.txt a{
+    padding: 40px;
+}
+.logo1{
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: -20px;
+    left: 312px;
+}
+.logo2{
+    position: absolute;
+    top: 20px;
+    left: 380px;;
+}
+.cont-v{
+    margin-left: 50px;
+}
+.vk{
+    position: absolute;
+    top:38px;
+    width: 32px;
+    height: 21px;
+}
+.telega{
+    position:absolute;
+    left:1350px ;
+    width: 32px;
+    height: 33px;
+}
+.knopka{
+    position: absolute;
+    left: 1490px;
+    width: 171px;
+    height: 42px;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 8px;
+    gap: 10px;
+}
+.first{
+    margin-top: 180px;
+}
+.img2{
+    position: absolute;
+    left: 980px;
+    top: 250px;
+    
+}
+.imag {
+    margin-left: 40px;
+    padding: 20px;
+    width: 440px;
+    height: 400px;
+    padding: 20px, 24px, 20px, 24px;
+    border-radius: 16px;
+    gap: 28px;
+    background-color: #FFFFFF59;
+    margin-left: 312px;
+  
+}
+.imag2 {
+    margin-left: 40px;
+    padding: 20px;
+    width: 440px;
+    height: 400px;
+    padding: 20px, 24px, 20px, 24px;
+    border-radius: 16px;
+    gap: 28px;
+    background-color: #FFFFFF59;
+    margin-left: 912px;
+    position: absolute;
+    top: 328px;
+}
+.btnl{
+    position: absolute;
+    left: 1450px;
+    top: 700px;
+    width: 171px;
+    height: 42px;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 8px;
+    color:black;
+
+}
+.log{
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1671a7;
+    color: white;
+}
+.first{
+    display: flex;
+}
+.first .h2{
+    margin-left: 410px;
+    
+}
+.first .h1{
+    margin-left: 460px;
+}
+.img1 img{
+    width: 150px;
+    height: 150px;
+}
+.img1 button{
+    background-color: #1671a7;
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Comfortaa';
+}
+.img1 button:hover{
+    background-color: #93cff759;
+}
+.img2{
+    margin-top: 120px;
+}
+.img2 button{
+    background-color: #1671a7;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Comfortaa';
+}
+.img2 button:hover{
+    background-color: #93cff759;
+}
+.log{
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1671a7;
+    color: white;
+    font-family: 'Comfortaa';
+}
+p{
+    color: white;
+}
+button{
+    color: white    ;
+}

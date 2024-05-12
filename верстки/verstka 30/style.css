@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+body{
+    background-image: url(img/фон.jpg);
+    font-family: 'Comfortaa', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color:white;
+    
+}
+header{
+    display: flex;
+}
+header{
+    margin-left: 500px;
+    margin-top: 30px;
+
+}
+.log{
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1671a7;
+    color: white;
+    font-family: 'Comfortaa';
+}
+.log:hover{
+    background-color:   #6f90c0;
+}
+.txt{
+    margin-top: 10px;
+    
+}
+.txt a{
+    padding: 40px;
+}
+.logo1{
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: -20px;
+    left: 312px;
+}
+.logo2{
+    position: absolute;
+    width: 7%;
+    height: 10%;
+    top: 1890px;
+    left: 640px;
+}
+
+.knopka{
+    position: absolute;
+    left: 1490px;
+    width: 171px;
+    height: 42px;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 8px;
+    gap: 10px;
+}
+.knopka:hover{
+    background-color:   #6f90c0;
+}
+.btnm{
+    width: 278px;
+    height: 57px;
+    padding: 16px, 24px, 16px, 24px;
+    border-radius: 12px;
+    gap: 10px;
+
+}
+.btnm:hover{
+    background-color:   #6f90c0;
+}
+.first img{
+    margin-top: 200px;
+    margin-left: 812px;
+}
+.first h1{
+    margin-top: 170px;
+    margin-left: 312px;
+    color: white;
+}
+.first h2{
+    margin-top: 10px;
+    margin-left: 319px;
+    color: white;
+    font-size: 19px;
+    width: 700px;
+
+}
+.btnm{
+    
+    margin-top: 30px;
+    width: 278px;
+    height: 57px;
+    background-color:#1671a7;
+    color: white;
+}
+.pred{
+    margin-top: 130px;
+    margin-left: 312px;
+    font-size: 24px;
+    color: white;
+
+}
+
+.container{
+margin-left: 40px;
+padding: 20px;
+display: flex;
+width: 340px;
+height: 168px;
+padding: 20px, 24px, 20px, 24px;
+border-radius: 16px;
+gap: 28px;
+background-color: #FFFFFF59;
+
+}
+.container button{
+    background: #1671a7;
+    width:  120px;
+    height:  42px;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 8px;
+    gap: 10px;
+    color:white;
+}
+.container button:hover{
+    background-color:   #6f90c0;
+}
+.tov{
+    margin-left: 278px;
+    color: white;
+    display:flex
+}
+.bron{
+    width: 278px;
+    height: 57px;
+}
+.btnm1 button{
+    width: 278px;
+    height: 57px;
+    background-color:#1671a7;
+    color: white;
+    width: 278px;
+    height: 57px;
+    padding: 16px, 24px, 16px, 24px;
+    border-radius: 12px;
+    gap: 10px;
+}
+.btnm1 button:hover{
+    background-color:   #6f90c0;
+}
+.bronir input{
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    border: none;
+    margin-top: 20px;
+}
+
+.bronir{
+    margin-top: 170px;
+    margin-left: 167px;
+    width: 284px;
+    height: 347px;
+    border-radius: 16px;
+    padding: 32px;
+    
+    background-color: rgba(255, 255, 255, 0.35);
+}
+.fm{
+    display: flex;
+}
+.star{
+    margin-top: 40px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    position: relative;
+    
+}
+.star-2{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.chak{
+    margin-top: 20px;
+}
+.filter{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+}
+.filterin{
+    border-radius: 15px;
+    background-color:rgba(255, 255, 255, 0.35);
+    width: 300px;
+    height: 400px;
+}
+.filterin input{
+    width: 200px;
+    height: 24px;
+    border: none;
+    border-radius: 15px;
+}
+.subusi{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.subs{
+    color: white;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.35);
+    border: #1671a7;
+}
+.subs p{
+    padding: 10px;
+}
+.subs input{
+    margin-top: 0px;
+    width: 200px;
+    height: 24px;
+    border: none;
+    border-radius: 15px;
+}
+.subs button{margin-top: 20px;
+    border-radius: 15px;
+    width: 100px;
+    height: 24px;
+    background-color: #1671a7;
+}
+.subs button:hover{
+    background-color: #6f90c0;
+}
+footer{
+    margin-top:30px ;
+}
+.txtfoot{
+    text-align: center;
+}
+.txtfoot a{
+    margin-left: 20px;
+}
+.logf{
+    margin: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1671a7;
+    color: white;
+}
+.logf a{
+    margin:0px;
+}
+.logf:hover{
+    background-color:   #6f90c0;
+}
+.const{
+    color: white;
+    text-align: center;
+}
+.sek{
+    color: white;
+}
+.subs button{
+    color: white;
+}
