@@ -1,0 +1,123 @@
+body{
+    background-color: beige;
+}
+.circ{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(105, 135, 218);
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 700px;
+    animation: blu 2s infinite;
+}
+.circ1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(218, 118, 105);
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 700px;
+    animation: re 2s infinite;
+}
+.circ2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(201, 218, 105);
+    position: absolute;
+    margin-top: 200px;   
+    margin-left: 770px;
+    animation: gre 2s infinite;
+}
+.circ3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(182, 105, 218);
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 770px;
+    animation: vio 2s infinite;
+}
+@keyframes blu {
+    0%{
+
+    }
+    25%{
+        margin-top: 200px;   
+        margin-left: 770px;
+    }
+    50%{
+        margin-top: 270px;
+        margin-left: 770px;
+    }
+    75%{
+        margin-top: 270px;
+        margin-left: 700px;
+    }
+    100%{
+
+    }
+}
+@keyframes re {
+    0%{
+
+    }
+    25%{
+        margin-top: 200px;
+        margin-left: 700px;
+    }
+    50%{
+        margin-top: 200px;   
+        margin-left: 770px;
+    }
+    75%{
+        margin-top: 270px;
+        margin-left: 770px;
+    }
+    100%{
+        
+    }
+}
+@keyframes gre {
+    0%{
+
+    }
+    25%{
+        margin-top: 270px;
+        margin-left: 770px;
+    }
+    50%{
+        margin-top: 270px;
+        margin-left: 700px;
+    }
+    75%{
+        margin-top: 200px;
+        margin-left: 700px;
+    }
+    100%{
+        
+    }
+}
+@keyframes vio {
+    0%{
+
+    }
+    25%{
+        margin-top: 270px;
+        margin-left: 700px;
+    }
+    50%{
+        margin-top: 200px;
+        margin-left: 700px;
+    }
+    75%{
+        margin-top: 200px;   
+        margin-left: 770px;
+    }
+    100%{
+        
+    }
+}
