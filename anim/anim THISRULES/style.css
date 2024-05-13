@@ -1,0 +1,89 @@
+p{
+    text-align: center;
+    justify-content:center ;
+    font-size: 56px;
+    color:white;
+    padding: 0;
+    margin: 0;
+    margin-top: 13px;
+}
+.skil{
+    width: 100px;
+    padding: 0;
+    
+    height: 100px;
+    background-color: blueviolet;
+    margin-left: 50px;
+    margin-bottom: 50px;  
+}
+@keyframes anim {
+    0%{
+        opacity: 0;
+        transform: rotate(-90deg);
+    }
+    25%{
+        
+    }
+    50%{
+        opacity:  1;
+        transform: rotate(0deg) scale(125%,125%)
+    }
+    75%{transform: scale(100%,100%);}
+    100%{
+        opacity: 1;
+    }
+
+
+
+}
+.strochra1{
+    display: flex;
+}
+.strochra2{
+    display: flex;
+}
+#t1{
+    animation: anim 1s linear;
+}
+#t2{
+    opacity: 0;
+    animation: anim 1s linear forwards;
+    animation-delay: 1s;
+}
+#t3{
+    opacity: 0;
+    animation: anim 1s linear forwards;
+    animation-delay: 2s;
+}
+#t4{
+    opacity: 0;
+    animation: anim 1s linear forwards;
+    animation-delay: 3s;
+}
+#t5{
+    opacity: 0;
+    animation: anim 1s linear forwards;
+    animation-delay: 4s;
+}
+#t6{
+    opacity: 0;
+    animation: anim 1s linear forwards;
+    animation-delay: 5s;
+}
+#t7{
+    opacity: 0;
+    animation: anim 1s linear forwards;
+    animation-delay: 6s;
+}
+#t8{
+    opacity: 0;
+    animation: anim 1s linear forwards;
+    animation-delay: 7s;
+}
+#t9{
+    opacity: 0;
+    animation: anim 1s linear forwards;
+    animation-delay: 8s;
+}
+
+
