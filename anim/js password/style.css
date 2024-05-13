@@ -1,0 +1,19 @@
+ 
+body{
+    justify-content: center;
+    text-align: center;
+}
+#clot{
+    margin-top: 20px;
+}
+.eys {
+    width: 2%;
+    height: 2%;
+    margin-bottom: -4px;
+    margin-left:-40px;
+}
+#int{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+}
