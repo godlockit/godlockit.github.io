@@ -1,0 +1,73 @@
+body{
+    background-color: bisque;
+}
+.cups{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: solid 10px;
+    background-color: gray;
+    border-color: white;
+}
+.ruch{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    position:absolute;
+    top:70px;
+    left:450px;
+    z-index: -1;
+    transform: rotate(330deg);
+}
+.cup{
+    position: fixed;
+    top:200px;
+    left:450px
+}
+.circl1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top:200px;
+    left:140px;
+    
+    background-color: black;
+    animation: animb infinite linear 8s;
+}
+.circl2{
+    background-color:   gray; 
+    width: 50px ;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top:330px;
+    left:250px;
+    animation: anim infinite linear 8s;
+}
+
+.circl3{
+    background-color: gray; 
+    width: 50px ;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top:330px;
+    left:250px;
+    animation: anim2 infinite linear 8s;
+}
+
+.circl4{
+    background-color: gray; 
+    width: 50px ;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top:330px;
+    left:250px;
+    animation: anim3 infinite linear 8s;
+}
+  
+
+
