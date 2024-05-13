@@ -1,0 +1,66 @@
+
+p{
+    width: 1000px;
+    margin-left: 40px;  
+}
+.pyat{
+    margin-left: 390px;
+}
+.heh{
+    background-color: rgb(255, 244, 207);
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+.o{
+    background-color: rgb(255, 242, 200);
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    position: absolute;
+}
+.d{
+    margin-left: 400px;
+    background-color: rgb(255, 243, 205);
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    position: absolute;
+}
+.t{
+    margin-left: 800px;
+    background-color: rgb(255, 241, 197);
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    position: absolute;
+}
+body{
+    margin-left: 360px;
+    margin-top: 150px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.heh p{
+    font-size: 60px;
+    color: rgb(35, 63, 124);
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.heh h3{
+    color: rgb(27, 56, 117);
+    width: 200px;
+    margin-left: 47px;
+    margin-top: -50px;
+    text-align: center;
+
+}
+.heh h5{
+    color: rgb(93, 105, 129);
+    width: 260px;
+    margin-left: 10px;
+    text-align: center;
+}
