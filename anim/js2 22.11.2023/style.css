@@ -1,0 +1,29 @@
+#btn{
+}
+.naj{
+    border: 1px solid;
+    position: absolute;
+    top: 37.2%;
+    left: 28%;
+    width: 700px;
+    text-align: center;
+}
+.cvet{
+    width: 700px;
+    position: absolute;
+    top: 42.8%;
+    left: 28%;
+    text-align: center;
+    border: 1px solid;
+}
+
+.btnm{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    width: 700px;
+    border: 1px solid;
+}
+
