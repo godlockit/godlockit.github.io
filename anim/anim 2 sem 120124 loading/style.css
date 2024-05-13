@@ -1,0 +1,146 @@
+*{
+margin:0 ;
+padding: 0;
+
+}
+body{
+    background-color: gray;
+}
+.load{
+    margin-top: 100px;
+}
+.load h1{
+    text-align: center;
+}
+.loading{
+    margin-left: 700px;
+    width: 500px;
+    height: 50px;
+    border: 1px solid black;
+    background-image: linear-gradient(45deg,
+    #fff 25%,
+    lightblue 25%,
+    lightblue 50%,
+    #fff 50%,
+    #fff 75%,
+    lightblue 75%,
+    lightblue 100%
+    );
+    margin-top: 100px;
+    border-radius: 20px;
+    animation: loading 5s  linear forwards;
+    background-size: 50px, 50px;
+}
+@keyframes loading{
+    from{
+        width: 0;
+    }
+    to{
+        background-position:100px;
+        width: 500;
+    }
+
+}
+.loading h1{
+    text-align: center;
+}
+
+/* .l10{
+    opacity: 0;
+animation: l10 1s linear;
+}
+@keyframes l10{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.l25{
+    margin-top: -40px;
+    opacity: 0;
+    animation: l10 1s 1s linear forwards;
+
+}
+.l50{
+    opacity: 0;
+    animation: l10 1s 2s linear forwards;
+}
+.l75{
+    opacity: 0;
+    margin-top: -40px;
+    animation: l10 1s 3s linear forwards ;
+}
+.l100{
+    opacity: 0;
+    animation: l100 1s 4s linear forwards;
+}
+@keyframes l100{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} */
+.photo{
+    margin-top: 200px;
+    margin-left: 500px;
+    opacity: 0;
+    animation: photo 1s 5s linear forwards;
+}
+@keyframes photo{
+    0%{
+        opacity: 0;
+    }
+    99%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+/* body{
+    background-color: blue;
+    background-image: url();
+    animation: snow 8s infinite linear;
+}
+@keyframes snow{
+    from{
+        background-position:0,0,0,0;
+
+    }
+    to{
+        background-position:10%,600px,10%,600px ;
+    }
+} */
+/* .santa {
+background-image: url();
+background-repeat: no-repeat ;
+width: 800px;
+height: 397px;
+position: absolute;
+background-position: 10px;
+background-size: 500px;
+animation: santa 1s infinite linear;
+}
+@keyframes santa{
+    0%{
+
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+} */
