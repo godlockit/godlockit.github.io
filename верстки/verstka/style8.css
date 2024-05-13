@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap'); 
+body{
+    background-image: url(img/bgc.png);
+    font-family: 'Comfortaa', sans-serif;
+}
+.first h1{
+    margin-top: 30px;
+    margin-left: 320px;
+    color: white;
+}
+.first p{
+    margin-top: 10px;
+    margin-left: 319px;
+    color: white;
+    width: 596px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+header{
+    display: flex;
+}
+header{
+    margin-left: 500px;
+    margin-top: 30px;
+
+}
+.txt{
+    margin-top: 10px;
+    
+}
+.txt a{
+    padding: 40px;
+}
+.logo1{
+    position: absolute;
+    top: 10px;
+    left: 190px;
+}
+.logo2{
+    position: absolute;
+    top: 20px;
+    left: 380px;;
+}
+.cont-v{
+    margin-left: 50px;
+}
+.vk{
+    position: absolute;
+    top:38px;
+    width: 32px;
+    height: 21px;
+}
+.telega{
+    position:absolute;
+    left:1350px ;
+    width: 32px;
+    height: 33px;
+}
+.knopka{
+    position: absolute;
+    left: 1490px;
+    width: 171px;
+    height: 42px;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 8px;
+    gap: 10px;
+}
+.first{
+    margin-top: 180px;
+}
+.first li{
+    list-style-type: none;
+}
+.corr{
+    position: absolute;
+    left: 970px;
+    top: 280px;
+}
+.first img{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: -10px;
+}
+.jo{
+    margin-left: 46px;
+}
+
