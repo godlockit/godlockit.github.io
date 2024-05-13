@@ -1,0 +1,83 @@
+.circl2{
+    position: absolute;
+    height: 205px;
+    width: 205px;
+    left: 10px;
+    top: 10px;
+    border-radius: 50%;
+    background:linear-gradient(100deg,rgb(255, 255, 255) 80%, red  ) ;
+    z-index: 1;
+    animation: circl 3s infinite linear;
+    
+ 
+}
+body{
+    background-color: black;
+    color: white;
+}
+.main{
+    margin-top: 300px;
+    text-align: center;
+}
+.kvadrat{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    margin-left: 10px;
+}
+.conteiner{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+h1{
+    font-size: 48px;
+    margin-top: -25px;
+}
+
+#a1{
+    animation: a1 3s infinite ;
+}
+@keyframes a1{
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 20%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+#a2{
+    animation: a2 3s infinite ;
+    animation-delay:1s;
+}
+@keyframes a2{
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 20%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+#a3{
+    animation: a3 3s infinite ;
+    animation-delay:2s;
+}
+@keyframes a3{
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 20%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
