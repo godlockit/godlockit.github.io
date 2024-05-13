@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+
+}
+header{
+    background-color: rgba(20, 16, 36, 1);
+    margin-top: 10px;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+ul{
+    display: flex;
+}
+header p{
+    font-size: 24px;
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+}
+.first{
+    padding-top: 20px;
+    background-color:  rgba(20, 16, 36, 1);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.left-f{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.left-f h1{
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+.left-f p{
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 478px;
+}
+.left-f button{
+    background: rgba(213, 32, 39, 1);
+    width: 260px;
+    height: 79px;
+    padding: 25px 54px 25px 54px;
+    border-radius: 5px;
+    color: white;
+
+}
+.second{
+    display: flex;
+    justify-content:center ;
+    flex-direction: column
+}
+.up-s{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.up-s p{
+    width: 891px;
+    height: 144px;
+    font-size: 30px;
+}
+.ds-1 p{
+    padding: 0px 20px 20px 0px;
+    width: 260px;
+    height: 58px;
+    font-size: 18px;
+}
+.ds-1 h1{
+    font-size: 70px;
+    padding: 10px;
+    color: rgba(213, 32, 39, 1);
+}
+.down-s{
+    display: flex;
+    margin-left: 500px;
+    
+}
+.three{
+    background: rgba(249, 249, 249, 1);
+    display: flex;
+    justify-content:center ;
+    flex-direction: column
+}
+.up-t{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    display: flex;
+    margin-left: 500px;
+}
+.down-t{
+    width: 1160px;
+    margin-left: 500px;
+    display: flex;
+}
+.down-t h1{
+    margin-bottom: 15px;
+}
+.down-t p{
+    color:  rgba(20, 16, 36, 0.7);
+
+}
+.pos890{
+    left:1400px;
+    position: absolute;
+    width: 251px;
+    height: 56px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(20, 16, 36, 0.1);
+    border: none;
+}
+.fore{
+    margin-top: 120px;
+    margin-left: 500px;
+}
+.slider{
+    display: flex;
+    margin-top: 60px;
+}
+.ds-2 a{
+color: rgba(213, 32, 39, 1);
+}
+.ds-2 p{
+    color:  rgba(20, 16, 36, 0.7);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    }
+#ol{
+    margin-left: 40px;
+}
+.five h1{
+    font-size: 50px;
+}
+.five{
+    margin-left: 500px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.cost{
+    font-size:50px ;
+}
+.card-list{
+    margin-top: 60px;
+    display: flex;
+
+}
+.card{
+    
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    width: 360px;
+    height: 500px;
+border-radius: 20px;
+background: rgba(20, 16, 36, 1);
+
+}
+.card h1{
+    margin-top: 40px;
+    margin-bottom: 83px;
+}
+.card-2 h1{
+    margin-top: 40px;
+    margin-bottom: 83px;
+}
+.card p{
+    width: 250px;
+    margin-left: 50px;
+}
+.card button{
+    border: none;
+    margin-left: 40px;
+    width: 280px;
+height: 79px;
+padding: 25px 54px 25px 54px;
+border-radius: 5px ;
+color: white;
+background: rgba(213, 32, 39, 1);
+
+    margin-bottom: 40px;
+}
+.card-2 button{
+    border: none;
+    margin-left: 40px;
+    width: 280px;
+height: 79px;
+padding: 25px 54px 25px 54px;
+border-radius: 5px ;
+color: white;
+background: rgba(213, 32, 39, 1);
+
+    margin-bottom: 40px;
+}
+.card-2{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    justify-content: space-between;
+    color: black;
+    width: 360px;
+    height: 460px;
+    margin-top: 20px;
+    margin-left: 40px;
+border-radius: 20px;
+border: 1px solid rgba(20, 16, 36, 0.2)
+}
+.si9{
+    color: white;
+    background-color: rgba(213, 32, 39, 1);
+}
+.six{
+    padding-top:106px ;
+    display: flex;
+    
+}
+.right-s{
+    
+    width: 500px;
+}
+.right-s input{
+    border-radius: 5px;
+    width: 500px;
+    height: 64px;
+    margin-bottom: 10px;
+    border: none;
+}
+.right-s button{
+    border: none;
+    width: 500px;
+    height: 64px;
+    border-radius: 5px;
+    color: white;
+    z-index: 0;
+   background-color:  rgba(20, 16, 36, 1);
+}
+.left-s{
+    width: 476px;
+    margin-left: 500px;
+}
+.left-s h1{
+    font-size: 36px;
+}
+.si9 img{
+    z-index: -2;
+    margin-top: -400px;
+}
