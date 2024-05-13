@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{background-color: blueviolet;
+    z-index: 0;
+}
+.krug {
+
+    height: 200px;
+    width: 200px;
+    background: khaki;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -5;
+    top:200px;
+    left: 320px;
+    
+    
+}
+.sunlight1{
+    
+    width: 20px;
+    height: 70px;
+    border-radius: 50px;
+    position: absolute;
+    left: 410px;
+    top: 450px;
+    background-color: khaki;
+    animation: sun 2s ;
+}
+.sunlight2{
+    width: 20px;
+    height: 70px;
+    border-radius: 50px;
+    position: absolute;
+    top: 408px;
+    left: 260px;
+    transform: rotate(45deg);
+    background-color: khaki;
+    animation: sun 3s  linear;
+}
+.sunlight3{
+    width: 20px;
+    height: 70px;
+    background-color: khaki;
+    border-radius: 50px;
+    position: absolute;
+    top: 270px;
+    left: 220px;
+    transform: rotate(90deg);
+    animation: sun 4s linear;
+}
+.sunlight4{
+    width: 20px;
+    height: 70px;
+    background-color: khaki;
+    border-radius: 50px;
+    position: absolute;
+    top: 142px;
+    left: 260px;
+    transform: rotate(135deg);
+    animation: sun 5s linear;
+}
+.sunlight5{
+    width: 20px;
+    height: 70px;
+    border-radius: 50px;
+    position: absolute;
+    left: 410px;
+    top: 85px;
+    transform: rotate(0deg);
+    background-color: khaki;
+    animation: sun 6s linear;
+}
+.sunlight6{
+    width: 20px;
+    height: 70px;
+    border-radius: 50px;
+    position: absolute;
+    top: 142px;
+    left: 560px;
+    transform: rotate(45deg);
+    background-color: khaki;
+    animation: sun 7s linear;
+    
+}
+.sunlight7{
+    width: 20px;
+    height: 70px;
+    border-radius: 50px;
+    position: absolute;
+    top: 270px;
+    left: 605px;
+    transform: rotate(90deg);
+    background-color: khaki;
+    animation: sun 8s linear;
+    
+}
+.sunlight8{
+    width: 20px;
+    height: 70px;
+    border-radius: 50px;
+    position: absolute;
+    top: 408px;
+    left: 560px;
+    transform: rotate(135deg);
+    background-color: khaki;
+    animation: sun 16s  ;
+    
+    
+}
+.log{
+    position: absolute;
+    top: 600px  ;
+    left: 330px;
+    animation: log 5s linear;
+}
+.log p{
+    text-align: center;
+}
+input{
+    width: 200px;
+    height: 30px;
+    
+}
+@keyframes log {
+    0%{
+        top: 1000px;
+    }
+    100%{     
+       top: 600px      
+    }
+
+}
+@keyframes sun {
+    0%{
+        opacity: 0;
+    }
+
+    100%{     
+        opacity: 1;  
+    }
+
+}
