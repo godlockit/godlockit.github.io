@@ -1,0 +1,444 @@
+*{
+    background-color: rgb(243, 236, 229);
+}
+
+ul{
+    list-style-type:none ;
+    display: flex;
+}
+li{ 
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.head{
+    margin-left: 25%;
+    display: flex;
+}
+.rait{
+    margin-left: 80px;
+}
+.logo{
+    padding-top:15px ;
+    width: 74px;
+    height: 62px;
+    margin-left: 6%;
+    
+}
+.cont img{
+    width:23px ;
+    height:27px ;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.cont2 img{
+    width:23px ;
+    height: 16px;
+    margin-top: 35px;
+    margin-left: 80px;
+}
+ .main{
+    min-height: 560px;
+    min-height: 760px;
+    
+    padding-bottom:30px ;
+
+}
+.main img{
+    width: 100%;
+    height: 100%;
+
+}
+.text {
+    max-width: 70%;
+    text-align: center;
+    margin-top: -28%;
+    margin-left: 13%;
+
+}
+.main button{
+    height: 35px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    margin-left: 43%;
+    position:absolute;
+}
+.main button:hover {
+    background-color: gray;
+    background-position: 100% 0;
+    box-shadow: 0 4px 15px 0 gray; 
+} 
+footer{
+    padding-top: 180px;
+    margin-top: 50px;
+}
+.strelka{
+    text-align: center;
+    margin-top: -7%;
+}
+.phone{
+    margin-left: 12%;
+    display: flex;
+}
+.phone p{
+    padding-left: 10px;
+}
+.phone img{
+    margin-top: 10px;
+    width: 19px;
+    height: 29px;
+}
+.adress{
+    margin-left: 12%;
+    display: flex;
+}
+.adress p{
+    padding-left: 10px;
+}
+.adress img{
+    margin-top: 10px;
+    width: 23px;
+    height: 32px;
+}
+.vector{
+    margin-left: 12%;
+    padding: 10px;
+    padding-top:15px;
+    background-color: bisque;
+}
+.vector img{
+    margin-left: -20px;
+    background-color: bisque;
+    position: absolute;
+
+}
+.vector input{
+    width: 380px;
+    background-color: bisque;
+    border: 0px solid;
+}
+.skir{
+    padding-left: 5px;
+    display: flex;
+}
+.info{
+    
+    margin-top: 4%;
+    margin-left: 12%;
+}
+.info p{
+    width: 30%;
+}
+.cotset{
+    margin-top: -4%;
+    margin-left: 67%;
+}
+.bord{
+    padding-bottom: 80px;
+    border-bottom: 2px solid;
+    border-color: bisque;
+}
+.podv p{
+    text-align: center;
+    color: gray;
+}
+.main1 img{
+    width: 477px;
+    height: 506px;
+    position: absolute inherit;
+    margin-left: 60%;
+    margin-top: -0%;
+}
+.main1 h1{
+    margin-left: 15%;
+    width: 40%;
+    margin-top: -20%;
+    font-size: 48px;
+}
+.main1 p{
+    margin-left: 15%;
+    width: 500px;
+    margin-top: 2%;
+    font-size: 24px;
+}
+.butmain{
+    margin-left: 354px;
+    padding-bottom: 200px;
+}
+
+.bt1{
+    width: 135px;
+    height: 41px;
+    background-color: black;
+    color:aliceblue;
+}
+.bt2{
+    width: 135px;
+    height: 41px;
+    margin-left: 20px;
+    border-color: rgb(241, 191, 125);
+}
+.eda{
+    margin-top: -320px;
+    margin-left: 320px;
+    padding-bottom: 100px;
+}
+.eda img{
+    width: 350px;
+    height: 256px;
+    margin-left :60px;
+    margin-bottom: 30px;
+
+}
+.backimgs{
+    display: flex;
+}
+.backimgs {
+    
+    margin-left: 290px;
+    
+    
+}
+.backimgs1 p
+{
+    width: 350px;
+    height: 256px;
+    margin-left: 70px;
+    margin-bottom: 40px ;
+    background-color:burlywood;
+    
+    
+}
+.backimgs2 p
+{
+    width: 350px;
+    height: 256px;
+    margin-left: 64px;
+    margin-bottom: 40px ;
+    background-color:burlywood;
+    
+    
+}
+.backimgs3 p
+{
+    width: 350px;
+    height: 256px;
+    margin-left: 63px;
+    margin-bottom: 40px ;
+    background-color:burlywood;
+}
+.mesto button{
+    margin-top: -140px;
+    background-color: black;
+    color: aliceblue;
+    width:167px ;
+    height:35px ;
+    margin-left: 25%;
+    position:absolute;
+}
+.mesto{
+    margin-top: -820px;
+    margin-left: 320px;
+    padding-bottom: 50px;
+}
+.mestopic{
+    margin-top: 70%;
+    margin-left:60px;
+
+}
+.mestopic img{
+    margin-top: 300px;
+    margin-bottom: -4px;
+}
+.backmesto{
+    
+    display: flex;
+    margin-left:58px;
+
+}
+.go1,.go2,.go3{
+    background-color: #1C1A1A;
+    width: 350px;
+    height: 256px;
+    margin-bottom: 40px;
+
+}
+.go1 p,a,span{
+    margin-left:30px;
+    color:white;
+    background-color: #1C1A1A;
+}
+.go1{
+    margin-left: 2px;
+}
+.go2{
+    margin-left:4px;
+}
+.go3{
+    margin-left:4px;
+}
+.go2 p,span{
+    margin-left:30px;
+    color:white;
+    background-color: #1C1A1A;   
+}
+.go3 p,span{
+    font-size: 20px;
+    margin-left:30px;
+    color:white;
+    background-color: #1C1A1A;  
+}
+.mesto h1{
+    position: absolute;
+    margin-left: 385px;
+}
+.go1 a{
+    font-size: 20px;
+    margin-left:15px;
+    color:white;
+    background-color: #1C1A1A; 
+}
+.s{
+    margin-top: 5px;
+    color: wheat;
+}
+.chai{
+    margin-top: 400px;
+}
+.chai img{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top:-150px ;
+}
+.chai h1 p{
+    max-width: 60%;
+    width: 600px;
+    margin-left: 200px;
+    margin-bottom: -200px;
+}
+.textchai{
+    max-width: 60%;
+    width: 800px;
+    margin-left: 200px;
+    margin-bottom: -200px;
+}
+.textchai h1{
+    font-size: 40px;
+}
+.chai button{
+    height: 35px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    margin-left: 0;
+    position:absolute;
+}
+.costomer{
+    text-align: center;
+    margin-top: 800px;
+}
+.textcostomer img{
+    width: 51px;
+    height: 51px;
+}
+.textcostomer p{
+    width: 800px;
+}
+.textcostomer
+{
+    margin-left: 480px;
+    display: flex;
+}
+.cerclpho{
+    
+    border-radius: 50%;
+}
+.map{
+    margin-left: 20%;
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    background-color: white;
+}
+.map form {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: white;
+
+}
+.map p{
+    background-color: white;
+}
+.map input{
+    /* margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px; */
+    width: 300px;
+    height: 30px;
+    border:10px white solid;
+    background-color: wheat;
+}
+.map  h3{
+    color: orange;
+    background-color: white;
+}
+.map  h2{
+    background-color: white;
+}
+.map  h1{
+    background-color: white;
+}
+.max br{
+    background-color: white;
+}
+.map button{
+    width: 144px;
+    height: 30px; 
+    background-color: black;
+    color: white;
+}
+.btn2 {
+    width: 144px;
+    height: 30px; 
+    background-color: black;
+    color: white; 
+}
+.tovar{
+    margin-top: 350px;
+
+}
+.tovar button{
+    background-color: black;
+    color: white; 
+    width: 165px;
+    height: 42px;
+    position: absolute;
+    margin-left: 45%;
+    text-align: center;
+    margin-top: -100px;
+}
+.tovar h1{
+    text-align: center;
+}
+.td{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.tovaritem p{
+    
+
+}
+
+.tovaritem {
+    border: 1px solid #000;
+    padding: 40px 80px;
+}
+.spisprod img{
+    position: absolute;
+    padding: 0px;
+    margin-right: 20px;
+}
