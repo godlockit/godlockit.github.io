@@ -1,0 +1,391 @@
+body{
+    background-image: url(img/background2.png);
+}
+.shapka p{
+    color: rgb(164, 187, 207);
+}
+.shapka{
+    display: flex;
+    gap: 80px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.shapka img{
+    width: 130px;
+    height: 22px;
+    margin-top: 20px;
+}
+.shapka button{
+    width: 180px;
+    height: 45px;
+    margin-left: 100px;
+    background: rgba(119, 114, 241, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.shapka button:hover{
+    background:  rgb(203, 201, 255);
+}
+.shapka .color{
+    color: aliceblue;
+}
+.dom{
+    color: rgb(166, 196, 221);
+    display: flex;
+    margin-left: 650px;
+}
+.dom img{
+    width: 16px;
+    height: 17px;
+    margin-top: 103px;
+}
+.dom p{
+    margin-top: 100px;
+    margin-left: 40px;
+    color: aliceblue;
+}
+.big{
+    color: aliceblue;
+    text-align: center;
+}
+.big p{
+    /* width: 600px;
+    margin-left: 600px; */
+}
+.big h1{
+    font-size: 80px;
+}
+.email2 p{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.bel{
+    width: 1900px;
+    height: 2700px;
+    background:rgb(255, 255, 255);
+}
+.bel img{
+    margin-top: 200px;
+    margin-left: -500px;
+}
+.ser li{
+    list-style-image: url(img/Line.png);
+    text-align: left;
+    color: black;
+    margin-left: 30px;
+    margin-bottom: 8px;
+}
+.bel h4, p{
+    color: rgba(30, 33, 44, 1);
+}
+.bel p{
+    text-align: left;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+.kkkk{
+    font-size: 18px;
+    width: 800px;
+}
+.kk2{
+    width: 800px;
+}
+.ser{
+    background: rgba(244, 245, 246, 1);
+    width: 400px;
+    height: 550px;
+    margin-left: 1200px;
+    margin-top: -1100px;
+}
+.ser p {
+    margin-left: 30px;
+    width: 300px;
+}
+.kk4{
+    display: flex;
+    padding-top: 40px;
+
+}
+.ser h4{
+    font-size: 24px;
+    text-align: start;
+    margin-left: 40px;
+}
+.kk5{
+    margin-bottom: 30px;
+}
+.s1{
+    margin-left: 750px;
+    margin-top: 70px;
+    height: 30px;
+
+}
+.s2{
+    height: 30px;
+}
+.fi{
+    background: rgba(119, 114, 241, 1);
+    height: 30px;
+    color: aliceblue;
+    border: none;
+    border-radius: 3px;
+}
+.tex h2{
+    color: black;
+    text-align: start;
+    margin-left: 380px;
+}
+.tex{
+    margin-top: 360px;
+}
+.group img{
+    margin-top: -20px;
+}
+.tex2 h2{
+    color: black;
+    text-align: start;
+    margin-left: 380px;
+}
+.chern{
+    background: rgb(44, 44, 48);
+    width: 1900px;
+    height: 520px;
+}
+.chern img{
+    margin-top: 100px;
+    margin-left: -900px;
+}
+.i{
+    margin-left: 600px;
+    margin-top: -400px;
+}
+.i p{
+    text-align: left;
+    margin-left: 220px;
+}
+.emaik{
+    margin-left: 600px;
+    margin-top: -86px;
+}
+.i input{
+    margin-left: -670px;
+    width: 230px;
+    height: 30px;
+    background: rgb(109, 108, 108);
+    color: aliceblue;
+}
+.emaik p{
+    margin-left: -60px;
+}
+.yout input{
+    width: 420px;
+    margin-left: -200px;
+    background: rgb(109, 108, 108);
+    color: aliceblue;
+}
+.name input{
+    margin-left: -390px;
+    background: rgb(109, 108, 108);
+    color: aliceblue;
+}
+.emaik input{
+    margin-left: -400px;
+}
+.i p{
+    margin-left: 330px;
+}
+.block2{
+    background: rgba(244, 245, 246, 1);
+    width: 1900px;
+    height: 1600px;
+    padding-top: 10px;
+}
+.block2 img{
+    /* margin-left: 350px;
+    margin-top: 100px; */
+    background-color: rgba(244, 245, 246, 1);
+}
+.heh p{
+    text-align: center;
+    font-size: 40px;
+}
+.kvad{
+    width: 950px;
+    height: 310px;
+    background: white;
+    margin-left: 490px;
+    margin-top: 100px;
+    position: absolute;
+}
+.kvad img{
+    margin: 0px;
+    width: 25px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.kvad p{
+    width: 600px;
+    margin-left: 100px;
+}
+#chel{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+.cel{
+    display: flex;
+}
+.kvad .nadp{
+    margin-left: -60px;
+}
+.kvad .nadp .seri{
+    color: rgb(150, 156, 161);
+}
+.post{
+    margin-top: 610px;
+    margin-left: 500px;
+}
+.post p{
+    width: 240px;
+}
+.post h1{
+    font-size: 40px;
+}
+.post button{
+    width: 180px;
+    height: 52px;
+    margin-top: 60px;
+    background: rgba(119, 114, 241, 1);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+.post button:hover{
+    background:  rgb(203, 201, 255);
+}
+.post2{
+    position: absolute;
+    display: flex;
+    margin-top: -340px;
+} 
+#one{
+    margin-left: 800px;
+}
+#two{
+    margin-left: 100px;
+}
+footer{
+    color: aliceblue;
+    margin-top: 60px;
+    display: flex;
+}
+.logo2{
+    width: 130px;
+    height: 22px;
+
+}
+.f p{
+    width: 300px;
+
+    color: rgb(166, 159, 172);
+}
+.f{
+    margin-left: 300px;
+}
+.f img{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.compa{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.compa p{
+    color: rgb(166, 159, 172);
+}
+.serv{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.serv p{
+    color: rgb(166, 159, 172);
+}
+.cont{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.cont p{
+    color: rgb(166, 159, 172);
+}
+.cont img{
+    display: flex;
+    margin-top: 10px;
+}
+.sig{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.sig p{
+    color: rgb(166, 159, 172);
+    width: 300px;
+}
+.sig input{
+    width: 286px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(205, 214, 221);
+}
+.pol{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 300px;
+    color: aliceblue;
+    gap: 10px;
+}
+.pol img{
+    width: 15px;
+    height: 13px;
+    margin-top: 20px;
+}
+.posle{
+    background:rgb(41, 41, 41);;
+    width: 1900px;
+    padding-top: 10px;
+}
+.imgposl img{
+    /* margin-top: 600px; */
+}
+.gs{
+    color: black;
+    margin-top: 700px;
+}
+.but{
+    display: flex;
+    margin-left: 660px;
+    gap: 100px;
+    color: black;
+}
+.but button{
+    width: 200px;
+    height: 50px;
+    background: rgba(119, 114, 241, 1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.but button:hover{
+    background:  rgb(203, 201, 255);
+}
+.pol p{
+    color: white;
+}

@@ -1,0 +1,329 @@
+body{
+    background-image: url(img/background.png);
+}
+.shapka p{
+    color: rgb(164, 187, 207);
+}
+.shapka{
+    display: flex;
+    gap: 80px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.shapka img{
+    width: 130px;
+    height: 22px;
+    margin-top: 20px;
+}
+.shapka button{
+    width: 180px;
+    height: 45px;
+    margin-left: 100px;
+    background: rgba(119, 114, 241, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.shapka button:hover{
+    background:  rgb(203, 201, 255);
+}
+.shapka .color{
+    color: aliceblue;
+}
+.dom{
+    color: rgb(166, 196, 221);
+    display: flex;
+    margin-left: 800px;
+}
+.dom img{
+    width: 16px;
+    height: 17px;
+    margin-top: 103px;
+}
+.dom p{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.big{
+    color: aliceblue;
+    text-align: center;
+    margin-right: 100px;
+}
+.big p{
+    width: 600px;
+    margin-left: 600px;
+}
+.big h1{
+    font-size: 80px;
+}
+.email{
+    margin-top: 50px;
+    margin-left: 660px;
+    color: aliceblue;
+}
+.email input{
+    width: 360px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.12);
+    border: none;
+    border-radius: 5px;
+}
+.email button{
+    height: 37px;
+    width: 100px;
+    background: rgba(119, 114, 241, 1);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+.email button:hover{
+    background:  rgb(203, 201, 255);
+}
+.white{
+    width: 100%;
+    background: rgba(229, 232, 237, 1);
+    margin-top: 100px;
+    z-index: 1;
+}
+.shapka2{
+    padding-top:100PX ;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    padding-bottom: 100px;
+}
+.shapka2 button{
+    width: 160px;
+    border-color: rgba(119, 114, 241, 1);
+    color: rgba(119, 114, 241, 1);
+    border-radius: 10px;
+}
+
+.card{
+    width: 600px;
+    height: 400px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    box-shadow: 0px 12px 10px -6px rgba(154, 156, 165, 0.04);
+    box-shadow: 0px 30px 24px -10px rgba(154, 156, 165, 0.05);
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    margin-bottom: 30px;
+
+
+}
+.up{padding-left: 30px;
+    height: 200px;
+   color: rgba(255, 255, 255, 1);
+}
+.text{
+    color: rgba(120, 122, 128, 1);
+}
+.stat{
+    padding-left: 30px;
+    border-bottom: 1px solid;
+    border-image-source: linear-gradient(270.01deg, rgba(218, 219, 221, 0) 100%);
+}
+.object{
+    padding-left: 30px;
+    width: 520px;
+}
+.next{
+    
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+}
+.conteiner{
+    margin-left: 345px;
+    width: 1230px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#back1{
+    background-image: url(img/image1.png);
+}
+#back2{
+    background-image: url(img/image2.png);
+}#back3{
+    background-image: url(img/image3.png);
+}#back4{
+    background-image: url(img/image4.png);
+}#back5{
+    background-image: url(img/image1.png);
+}#back6{
+    background-image: url(img/image6.png);
+}
+.load{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.load img{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;margin-right: 10px;  
+
+}
+.block2{
+    background: rgba(244, 245, 246, 1);
+    width: 100%;
+    height: 1600px;
+}
+.block2 img{
+    margin-left: 350px;
+    margin-top: 100px;
+    background-color: rgba(244, 245, 246, 1);
+}
+.heh p{
+    text-align: center;
+    font-size: 40px;
+}
+.kvad{
+    width: 950px;
+    height: 310px;
+    background: white;
+    margin-left: 490px;
+    margin-top: 100px;
+    position: absolute;
+}
+.kvad img{
+    margin: 0px;
+    width: 25px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.kvad p{
+    width: 600px;
+    margin-left: 100px;
+}
+#chel{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+.cel{
+    display: flex;
+}
+.kvad .nadp{
+    margin-left: -60px;
+}
+.kvad .nadp .seri{
+    color: rgb(150, 156, 161);
+}
+.post{
+    margin-top: 610px;
+    margin-left: 500px;
+}
+.post p{
+    width: 240px;
+}
+.post h1{
+    font-size: 40px;
+}
+.post button{
+    width: 180px;
+    height: 52px;
+    margin-top: 60px;
+    background: rgba(119, 114, 241, 1);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+.post button:hover{
+    background:  rgb(203, 201, 255);
+}
+.post2{
+    position: absolute;
+    display: flex;
+    margin-top: -340px;
+} 
+#one{
+    margin-left: 800px;
+}
+#two{
+    margin-left: 100px;
+}
+footer{
+    color: aliceblue;
+    margin-top: 60px;
+    display: flex;
+}
+.logo2{
+    width: 130px;
+    height: 22px;
+
+}
+.f p{
+    width: 300px;
+
+    color: rgb(166, 159, 172);
+}
+.f{
+    margin-left: 300px;
+}
+.f img{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.compa{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.compa p{
+    color: rgb(166, 159, 172);
+}
+.serv{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.serv p{
+    color: rgb(166, 159, 172);
+}
+.cont{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.cont p{
+    color: rgb(166, 159, 172);
+}
+.cont img{
+    display: flex;
+    margin-top: 10px;
+}
+.sig{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.sig p{
+    color: rgb(166, 159, 172);
+    width: 300px;
+}
+.sig input{
+    width: 286px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(205, 214, 221);
+}
+.pol{
+    /* background: rgb(23, 29, 43); */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 300px;
+    color: aliceblue;
+    gap: 10px;
+}
+.pol img{
+    width: 15px;
+    height: 13px;
+    margin-top: 20px;
+}
