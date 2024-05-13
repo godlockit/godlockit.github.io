@@ -1,0 +1,21 @@
+.contact {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+  }
+  .person {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+   
+  .animal {
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+  .submit {
+    margin-top: 20px;
+  }
