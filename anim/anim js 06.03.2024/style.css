@@ -1,0 +1,73 @@
+body{
+    background-color: beige;
+}
+
+.wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(21, 55, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    perspective: 100px;
+    background-color: beige;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 25px 5px white;
+    animation: zig 3s infinite linear;
+    
+    
+}
+@keyframes zig {
+    0%{
+  
+    }
+    25%{
+        box-shadow: 0px 0px 0px 0px white;
+    }
+    50%{
+        box-shadow: 1px 1px 25px 5px white;
+    }
+    75%{
+        box-shadow: 0px 0px 0px 0px white;
+    }
+    100%{
+        box-shadow: 1px 1px 25x 5px white;
+    }
+}
+.card2{
+    height: 385px;
+    width: 385px;
+    position: relative;
+    perspective: 100px;
+    background-color: rgb(21, 55, 68);
+    animation: ras 3s infinite linear;
+    border-radius: 50%;
+}
+@keyframes ras{
+    0%{
+        transform: translate(0);
+    }
+    25%{
+        transform: translateX(20px) translateY(-20px);
+    }
+    50%{
+        transform: translate(0);
+    }
+    75%{
+        transform: translateX(-20px) translateY(20px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
