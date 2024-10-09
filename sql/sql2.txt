@@ -1,0 +1,55 @@
+CREATE TABLE phone(
+	id	INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(255),
+    price DECIMAL,
+    description VARCHAR(255)
+);
+INSERT INTO phone(title, price, description) VALUES ("phone",1000,"model 15"),("Samsung",900,"model galaxy z-flip"),("Xiomi",500,"ppp");
+
+SELECT * FROM phone WHERE price > 600; # AND/OR  второе условие.
+
+
+
+CREATE DATABASE Apteka;
+USE Apteka;
+CREATE TABLE product(
+	id INT AUTO_INCREMENT,
+    name VARCHAR(255),
+    Comments VARCHAR(255),
+    price VARCHAR(10),
+    PRIMARY KEY(id)
+);
+CREATE TABLE users(
+id INT AUTO_INCREMENT,
+    name VARCHAR(255),
+    surname VARCHAR(255),
+    passport VARCHAR(255) UNIQUE,
+    age INT,
+    PRIMARY KEY (id)
+);
+CREATE TABLE Orders(
+	id INT AUTO_INCREMENT,
+    idproduct INT,
+    iduser INT,
+    name VARCHAR(255),
+    price VARCHAR(10),
+    PRIMARY KEY(id,idproduct,iduser),
+    FOREIGN KEY (idproduct) REFERENCES product (id) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (iduser) REFERENCES users (id) ON DELETE CASCADE ON UPDATE CASCADE 
+);
+CREATE TABLE personals(
+id INT AUTO_INCREMENT,
+    name VARCHAR(255),
+    surname VARCHAR(255),
+    passport VARCHAR(255) UNIQUE,
+    age INT,
+    adress VARCHAR(255),
+    PRIMARY KEY (id)
+);
+INSERT INTO users (name,surname,passport,age) VALUES ("IVAN","IVANOV","253452307",25),("PITR","PAVLOVICH","25232345324507",19);
+INSERT INTO product(name,comments,price) VALUES ("Валидол","от сердца",30),("Аскорбинка","Витамин С", 50), ("Парацитамол","от ОРВ",10);
+INSERT INTO personals(name,surname,passport,age,adress) VALUES ("IVAN","IVANOV","252371207",32,"street-Olen"),("PITR","PAVLOVICH","2523241207",19,"street-Olen");
+INSERT INTO Orders (idproduct,iduser,name,price) VALUES(2,1,"order",50),(1,2,"order",30);
+
+
+

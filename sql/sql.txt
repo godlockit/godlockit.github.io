@@ -1,0 +1,17 @@
+#CREATE DATABASE products;
+USE products;
+CREATE TABLE Users(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    age INT,
+    name VARCHAR(255),
+    surname VARCHAR(255),
+    passport VARCHAR(255) UNIQUE
+);
+CREATE TABLE Orders (
+	id INT AUTO_INCREMENT,
+	idUsers INT AUTO_INCREMENT,
+    price VARCHAR(255),
+    PRIMARY KEY(id,idUsers),
+    FOREIGN KEY (idUsers) REFERENCES Users (id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
